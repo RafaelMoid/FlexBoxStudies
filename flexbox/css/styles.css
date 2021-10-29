@@ -31,6 +31,13 @@
 
     flex-grow:1;
     /*Substitui o uso de width de forma eficiente*/
+
+    flex-shrink: 1; /* Propriedade para encolhimento*/
+
+    flex-basis: 30px; /* Propriedade que define tamanho minimo do objeto */
+
+    flex: 1 1 20px; /*Define na ordem os valores de grow, shrink e basis, o que substitui
+    o uso das três propiedades acima.*/
 }
 
 
